@@ -1,0 +1,463 @@
+[
+  {
+    "description": "As a visitor\nI want to be able to register in the website\nSo that I can vote for a sport car",
+    "keyword": "Feature",
+    "name": "Buggy Car Rating User story Page registration",
+    "line": 2,
+    "id": "buggy-car-rating-user-story-page-registration",
+    "tags": [
+      {
+        "name": "@E2E_Testing",
+        "line": 1
+      },
+      {
+        "name": "@Registation_Testing",
+        "line": 1
+      }
+    ],
+    "uri": "02_registrationPage.feature",
+    "elements": [
+      {
+        "id": "buggy-car-rating-user-story-page-registration;a-new-user-enters-password-without-uppercase",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "A new user enters password without uppercase",
+        "tags": [
+          {
+            "name": "@E2E_Testing",
+            "line": 1
+          },
+          {
+            "name": "@Registation_Testing",
+            "line": 1
+          },
+          {
+            "name": "@Registration_Testing",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "A new user opens the website",
+            "result": {
+              "status": "passed",
+              "duration": 559000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "The user clicks on the Register button",
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "The user enters password without uppercase and clicks Submit",
+            "result": {
+              "status": "passed",
+              "duration": 1465000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "The user error message \"InvalidPasswordException: Password did not conform with policy: Password must have uppercase characters\" is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 268000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "buggy-car-rating-user-story-page-registration;a-new-user-enters-password-without-lowercase",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "A new user enters password without lowercase",
+        "tags": [
+          {
+            "name": "@E2E_Testing",
+            "line": 1
+          },
+          {
+            "name": "@Registation_Testing",
+            "line": 1
+          },
+          {
+            "name": "@Registration_Testing",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "A new user opens the website",
+            "result": {
+              "status": "passed",
+              "duration": 332000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "The user clicks on the Register button",
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "The user enters password without lowecase and clicks Submit",
+            "result": {
+              "status": "passed",
+              "duration": 1329000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "The user error message \"InvalidPasswordException: Password did not conform with policy: Password must have lowercase characters\" is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 138000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "buggy-car-rating-user-story-page-registration;a-new-user-enters-password-without-special-character",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "A new user enters password without special character",
+        "tags": [
+          {
+            "name": "@E2E_Testing",
+            "line": 1
+          },
+          {
+            "name": "@Registation_Testing",
+            "line": 1
+          },
+          {
+            "name": "@Registration_Testing",
+            "line": 24
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "A new user opens the website",
+            "result": {
+              "status": "passed",
+              "duration": 282000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "The user clicks on the Register button",
+            "result": {
+              "status": "passed",
+              "duration": 98000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "The user enters password without special characters and clicks Submit",
+            "result": {
+              "status": "passed",
+              "duration": 1333000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "The user error message \"InvalidPasswordException: Password did not conform with policy: Password must have symbol characters\" is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 128000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "buggy-car-rating-user-story-page-registration;a-new-user-enters-password-without-numeric-value",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "A new user enters password without numeric value",
+        "tags": [
+          {
+            "name": "@E2E_Testing",
+            "line": 1
+          },
+          {
+            "name": "@Registation_Testing",
+            "line": 1
+          },
+          {
+            "name": "@Registration_Testing",
+            "line": 31
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "A new user opens the website",
+            "result": {
+              "status": "passed",
+              "duration": 319000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "The user clicks on the Register button",
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "The user enters password without numeric value and clicks Submit",
+            "result": {
+              "status": "passed",
+              "duration": 1308000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "The user error message \"InvalidPasswordException: Password did not conform with policy: Password must have numeric characters\" is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 319000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "buggy-car-rating-user-story-page-registration;a-new-user-enters-password-lessthan-8-characters",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "A new user enters password lessthan 8 characters",
+        "tags": [
+          {
+            "name": "@E2E_Testing",
+            "line": 1
+          },
+          {
+            "name": "@Registation_Testing",
+            "line": 1
+          },
+          {
+            "name": "@Registration_Testing",
+            "line": 38
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "A new user opens the website",
+            "result": {
+              "status": "passed",
+              "duration": 310000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "The user clicks on the Register button",
+            "result": {
+              "status": "passed",
+              "duration": 96000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "The user enters password lessthan 8 characters and clicks Submit",
+            "result": {
+              "status": "passed",
+              "duration": 1308000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "The user error message \"InvalidPasswordException: Password did not conform with policy: Password not long enough\" is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 170000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "buggy-car-rating-user-story-page-registration;a-new-user-registers-a-new-account-and-edits-account-details",
+        "keyword": "Scenario",
+        "line": 46,
+        "name": "A new user registers a new account and edits account details",
+        "tags": [
+          {
+            "name": "@E2E_Testing",
+            "line": 1
+          },
+          {
+            "name": "@Registation_Testing",
+            "line": 1
+          },
+          {
+            "name": "@Registration_Testing",
+            "line": 45
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "A new user opens the website",
+            "result": {
+              "status": "passed",
+              "duration": 179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "The user clicks on the Register button",
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "The user enters all the details required and clicks Submit",
+            "result": {
+              "status": "passed",
+              "duration": 1479000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "The user Registration is successful",
+            "result": {
+              "status": "passed",
+              "duration": 279000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "buggy-car-rating-user-story-page-registration;a-user-can-register-only-once",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "A user can register only once",
+        "tags": [
+          {
+            "name": "@E2E_Testing",
+            "line": 1
+          },
+          {
+            "name": "@Registation_Testing",
+            "line": 1
+          },
+          {
+            "name": "@Registration_Testing",
+            "line": 52
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "A new user opens the website",
+            "result": {
+              "status": "passed",
+              "duration": 293000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "The user clicks on the Register button",
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "The user enters existing user details required and clicks Submit",
+            "result": {
+              "status": "passed",
+              "duration": 1321000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "The user error message \"UsernameExistsException: User already exists\" is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 244000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

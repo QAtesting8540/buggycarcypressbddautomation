@@ -1,0 +1,81 @@
+[
+  {
+    "description": "    This is to test the functionalities of the Individual Car Voting Page",
+    "keyword": "Feature",
+    "name": "Buggy Cars Rating Car Voting Page Feature",
+    "line": 2,
+    "id": "buggy-cars-rating-car-voting-page-feature",
+    "tags": [
+      {
+        "name": "@E2E_Testing",
+        "line": 1
+      },
+      {
+        "name": "@Voting_Testing",
+        "line": 1
+      }
+    ],
+    "uri": "03_votingPage.feature",
+    "elements": [
+      {
+        "id": "buggy-cars-rating-car-voting-page-feature;a-logged-in-user-opens-the-website-and-accesses-the-overall-ratings-to-vote",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "A logged in user opens the website and accesses the overall ratings to vote",
+        "tags": [
+          {
+            "name": "@E2E_Testing",
+            "line": 1
+          },
+          {
+            "name": "@Voting_Testing",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "A newly registered user opens the website",
+            "result": {
+              "status": "passed",
+              "duration": 3725000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "The user clicks on the current Popular Model on homepage",
+            "result": {
+              "status": "passed",
+              "duration": 159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "The user types a comment to vote",
+            "result": {
+              "status": "passed",
+              "duration": 4245000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "The user can see their comment and the vote count is incremented up",
+            "result": {
+              "status": "passed",
+              "duration": 1844000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
