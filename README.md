@@ -49,5 +49,11 @@ Environment variables are stored in cypress.json under the "env" jObject.
 The cypress test runner will have an interactive report after the tests are completed with states and screenshots saved for each step.
 The test run through the terminal will display the results in the terminal as well as provide a html report and cucumber-html report with screenshots of failures in .../reports/index.html, /reports/cucumber-htmlreport.html. 
 
+![multipleCucumberHtmlDashboardReport](https://user-images.githubusercontent.com/109050601/178177309-78f4f379-87c8-4850-af29-e1bf193db1b0.PNG)
+
+![pageregistrationscenarios](https://user-images.githubusercontent.com/109050601/178177340-40188f97-4a55-4f93-b73d-d6afb9f4cac6.PNG)
+
+![pageregistrationscenarios-page1](https://user-images.githubusercontent.com/109050601/178177356-5fc44039-0cdd-4152-aeb5-29914e4b65f3.PNG)
+
 
 
