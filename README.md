@@ -33,7 +33,8 @@ To run the tests through Cypress test runner use
 npx cypress open
 ```
 ## Framework Structure
-![cypreeFrameworkStructure](https://user-images.githubusercontent.com/109050601/178176044-17a2d3c7-2207-48e4-bf78-3334e94cd8e1.PNG)
+![cypressBddFrameworkStructure](https://user-images.githubusercontent.com/109050601/178246024-c1d8d466-a0f4-4620-8a11-9cbb2a220a38.PNG)
+
 
 Automation framework is developed in BDD page object modal using Cypress and Cumcumber.
 All the tests are included in the Cypress/integration folder has features_step_definitions and pages.
