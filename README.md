@@ -35,11 +35,9 @@ npm run test
 ## Framework Structure
 ![cypreeFrameworkStructure](https://user-images.githubusercontent.com/109050601/178176044-17a2d3c7-2207-48e4-bf78-3334e94cd8e1.PNG)
 
-
-https://github.com/QAtesting8540/buggycarcypressbddautomation/blob/main/cypreeFrameworkStructure.PNG
-
-All the tests are included in the Cypress/integration folder as feature files.
-The 3 different functionalities of the website has been included as a separate feature file.
+Automation framework is developed in BDD page object modal using Cypress and Cumcumber.
+All the tests are included in the Cypress/integration folder has features_step_definitions and pages.
+The 3 (Login, registration and voting) different functionalities of the website has been included as a separate feature file.
 The folders with the same names as the feature file will contain all the step definitions.
 
 The pages folder has all 3 page objects and methods to call in the step definisitons.
