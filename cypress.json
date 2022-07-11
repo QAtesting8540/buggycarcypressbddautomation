@@ -1,0 +1,22 @@
+{
+    "baseUrl" : "https://buggy.justtestit.org/",
+    "chromeWebSecurity": true,
+    "testFiles": "**/*.feature",
+    "isLocalRun":true,
+    "env":{
+        "username": "Testuserexists",
+        "firstName":"user",
+        "lastName":"exits",
+        "password": "P@#sw0rd"
+    },
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "charts": true,
+    "reportPageTitle": "Test Suite",
+    "embeddedScreenshots": true,
+    "inlineAssets": true
+    },
+    "video": false
+    
+}
