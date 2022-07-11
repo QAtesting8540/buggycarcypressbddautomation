@@ -1,4 +1,4 @@
-import { Registeration } from "C:/santhi/Cypress/BuggyCarsRating/cypress/Pages/registrationpage"
+import { Registeration } from "../../../Pages/registrationpage"
 import { Given, When, Then, And, Before, After } from "cypress-cucumber-preprocessor/steps";
 
 let registration = new Registeration()

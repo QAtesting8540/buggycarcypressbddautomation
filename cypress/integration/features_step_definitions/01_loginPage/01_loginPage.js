@@ -1,6 +1,5 @@
 import { Given, When, Then, And, Before, After } from "cypress-cucumber-preprocessor/steps";
-import { LoginPage } from "C:/santhi/Cypress/BuggyCarsRating/cypress/Pages/loginpage"
-
+import {LoginPage} from '../../../pages/loginpage'
 let loginpage = new LoginPage()
 
 

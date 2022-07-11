@@ -45,7 +45,7 @@
             "name": "A new user opens the website",
             "result": {
               "status": "passed",
-              "duration": 559000000
+              "duration": 576000000
             }
           },
           {
@@ -55,7 +55,7 @@
             "name": "The user clicks on the Register button",
             "result": {
               "status": "passed",
-              "duration": 127000000
+              "duration": 169000000
             }
           },
           {
@@ -65,7 +65,7 @@
             "name": "The user enters password without uppercase and clicks Submit",
             "result": {
               "status": "passed",
-              "duration": 1465000000
+              "duration": 1777000000
             }
           },
           {
@@ -75,7 +75,7 @@
             "name": "The user error message \"InvalidPasswordException: Password did not conform with policy: Password must have uppercase characters\" is displayed",
             "result": {
               "status": "passed",
-              "duration": 268000000
+              "duration": 277000000
             }
           }
         ]
@@ -108,7 +108,7 @@
             "name": "A new user opens the website",
             "result": {
               "status": "passed",
-              "duration": 332000000
+              "duration": 379000000
             }
           },
           {
@@ -118,7 +118,7 @@
             "name": "The user clicks on the Register button",
             "result": {
               "status": "passed",
-              "duration": 94000000
+              "duration": 109000000
             }
           },
           {
@@ -128,7 +128,7 @@
             "name": "The user enters password without lowecase and clicks Submit",
             "result": {
               "status": "passed",
-              "duration": 1329000000
+              "duration": 1697000000
             }
           },
           {
@@ -138,7 +138,7 @@
             "name": "The user error message \"InvalidPasswordException: Password did not conform with policy: Password must have lowercase characters\" is displayed",
             "result": {
               "status": "passed",
-              "duration": 138000000
+              "duration": 122000000
             }
           }
         ]
@@ -171,7 +171,7 @@
             "name": "A new user opens the website",
             "result": {
               "status": "passed",
-              "duration": 282000000
+              "duration": 364000000
             }
           },
           {
@@ -181,7 +181,7 @@
             "name": "The user clicks on the Register button",
             "result": {
               "status": "passed",
-              "duration": 98000000
+              "duration": 102000000
             }
           },
           {
@@ -191,7 +191,7 @@
             "name": "The user enters password without special characters and clicks Submit",
             "result": {
               "status": "passed",
-              "duration": 1333000000
+              "duration": 1638000000
             }
           },
           {
@@ -201,7 +201,7 @@
             "name": "The user error message \"InvalidPasswordException: Password did not conform with policy: Password must have symbol characters\" is displayed",
             "result": {
               "status": "passed",
-              "duration": 128000000
+              "duration": 62000000
             }
           }
         ]
@@ -234,7 +234,7 @@
             "name": "A new user opens the website",
             "result": {
               "status": "passed",
-              "duration": 319000000
+              "duration": 188000000
             }
           },
           {
@@ -244,7 +244,7 @@
             "name": "The user clicks on the Register button",
             "result": {
               "status": "passed",
-              "duration": 94000000
+              "duration": 104000000
             }
           },
           {
@@ -254,7 +254,7 @@
             "name": "The user enters password without numeric value and clicks Submit",
             "result": {
               "status": "passed",
-              "duration": 1308000000
+              "duration": 1670000000
             }
           },
           {
@@ -264,7 +264,7 @@
             "name": "The user error message \"InvalidPasswordException: Password did not conform with policy: Password must have numeric characters\" is displayed",
             "result": {
               "status": "passed",
-              "duration": 319000000
+              "duration": 245000000
             }
           }
         ]
@@ -297,7 +297,7 @@
             "name": "A new user opens the website",
             "result": {
               "status": "passed",
-              "duration": 310000000
+              "duration": 418000000
             }
           },
           {
@@ -307,7 +307,7 @@
             "name": "The user clicks on the Register button",
             "result": {
               "status": "passed",
-              "duration": 96000000
+              "duration": 112000000
             }
           },
           {
@@ -317,7 +317,7 @@
             "name": "The user enters password lessthan 8 characters and clicks Submit",
             "result": {
               "status": "passed",
-              "duration": 1308000000
+              "duration": 1729000000
             }
           },
           {
@@ -327,7 +327,7 @@
             "name": "The user error message \"InvalidPasswordException: Password did not conform with policy: Password not long enough\" is displayed",
             "result": {
               "status": "passed",
-              "duration": 170000000
+              "duration": 180000000
             }
           }
         ]
@@ -360,7 +360,7 @@
             "name": "A new user opens the website",
             "result": {
               "status": "passed",
-              "duration": 179000000
+              "duration": 511000000
             }
           },
           {
@@ -370,7 +370,7 @@
             "name": "The user clicks on the Register button",
             "result": {
               "status": "passed",
-              "duration": 122000000
+              "duration": 151000000
             }
           },
           {
@@ -380,7 +380,7 @@
             "name": "The user enters all the details required and clicks Submit",
             "result": {
               "status": "passed",
-              "duration": 1479000000
+              "duration": 2039000000
             }
           },
           {
@@ -390,7 +390,7 @@
             "name": "The user Registration is successful",
             "result": {
               "status": "passed",
-              "duration": 279000000
+              "duration": 442000000
             }
           }
         ]
@@ -423,7 +423,7 @@
             "name": "A new user opens the website",
             "result": {
               "status": "passed",
-              "duration": 293000000
+              "duration": 608000000
             }
           },
           {
@@ -433,7 +433,7 @@
             "name": "The user clicks on the Register button",
             "result": {
               "status": "passed",
-              "duration": 90000000
+              "duration": 111000000
             }
           },
           {
@@ -443,7 +443,7 @@
             "name": "The user enters existing user details required and clicks Submit",
             "result": {
               "status": "passed",
-              "duration": 1321000000
+              "duration": 1735000000
             }
           },
           {
@@ -453,7 +453,7 @@
             "name": "The user error message \"UsernameExistsException: User already exists\" is displayed",
             "result": {
               "status": "passed",
-              "duration": 244000000
+              "duration": 222000000
             }
           }
         ]

@@ -1,7 +1,7 @@
 import { Given, When, Then, And, Before, After } from "cypress-cucumber-preprocessor/steps";
-import { Registeration } from "C:/santhi/Cypress/BuggyCarsRating/cypress/Pages/registrationpage"
-import { LoginPage } from "C:/santhi/Cypress/BuggyCarsRating/cypress/Pages/loginpage"
-import { CarVoting } from "C:/santhi/Cypress/BuggyCarsRating/cypress/Pages/votingpage"
+import { Registeration } from "../../../Pages/registrationpage"
+import { LoginPage } from "../../../Pages/loginpage"
+import { CarVoting } from "../../../Pages/votingpage"
 
 let registration = new Registeration()
 let loginpage = new LoginPage()

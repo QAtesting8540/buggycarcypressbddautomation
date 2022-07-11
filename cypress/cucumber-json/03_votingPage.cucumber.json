@@ -41,7 +41,7 @@
             "name": "A newly registered user opens the website",
             "result": {
               "status": "passed",
-              "duration": 3725000000
+              "duration": 4551000000
             }
           },
           {
@@ -51,7 +51,7 @@
             "name": "The user clicks on the current Popular Model on homepage",
             "result": {
               "status": "passed",
-              "duration": 159000000
+              "duration": 189000000
             }
           },
           {
@@ -61,7 +61,7 @@
             "name": "The user types a comment to vote",
             "result": {
               "status": "passed",
-              "duration": 4245000000
+              "duration": 3861000000
             }
           },
           {
@@ -71,7 +71,7 @@
             "name": "The user can see their comment and the vote count is incremented up",
             "result": {
               "status": "passed",
-              "duration": 1844000000
+              "duration": 1882000000
             }
           }
         ]

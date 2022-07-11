@@ -1,5 +1,5 @@
 {
-    "baseUrl" : "https://buggy.justtestit.org/",
+    "baseUrl" : "https://buggy.justtestit.org",
     "chromeWebSecurity": true,
     "testFiles": "**/*.feature",
     "isLocalRun":true,

@@ -45,7 +45,7 @@
             "name": "A user opens the website",
             "result": {
               "status": "passed",
-              "duration": 889000000
+              "duration": 917000000
             }
           },
           {
@@ -55,7 +55,7 @@
             "name": "The user types unregistered username and password and clicks Login",
             "result": {
               "status": "passed",
-              "duration": 566000000
+              "duration": 677000000
             }
           },
           {
@@ -65,7 +65,7 @@
             "name": "The user error message \"Invalid username/password\" is displayed",
             "result": {
               "status": "passed",
-              "duration": 479000000
+              "duration": 451000000
             }
           }
         ]
@@ -98,7 +98,7 @@
             "name": "A user opens the website",
             "result": {
               "status": "passed",
-              "duration": 293000000
+              "duration": 268000000
             }
           },
           {
@@ -108,7 +108,7 @@
             "name": "The user types username and password and clicks Login",
             "result": {
               "status": "passed",
-              "duration": 677000000
+              "duration": 824000000
             }
           },
           {
@@ -118,7 +118,7 @@
             "name": "The user can see that they are logged in",
             "result": {
               "status": "passed",
-              "duration": 634000000
+              "duration": 653000000
             }
           }
         ]

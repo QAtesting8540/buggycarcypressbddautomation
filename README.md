@@ -26,11 +26,11 @@ npm update
 
 To run the tests there are two ways. To run the tests through the terminal use
 ```sh
-npx cypress run
+npm test
 ```
 To run the tests through Cypress test runner use
 ```sh
-npm run test
+npx cypress open
 ```
 ## Framework Structure
 ![cypreeFrameworkStructure](https://user-images.githubusercontent.com/109050601/178176044-17a2d3c7-2207-48e4-bf78-3334e94cd8e1.PNG)
