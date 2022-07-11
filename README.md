@@ -34,7 +34,7 @@ npm run test
 ```
 ## Framework Structure
 
-
+https://github.com/QAtesting8540/buggycarcypressbddautomation/blob/main/cypreeFrameworkStructure.PNG
 
 All the tests are included in the Cypress/integration folder as feature files.
 The 3 different functionalities of the website has been included as a separate feature file.
