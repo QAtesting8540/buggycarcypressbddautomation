@@ -33,6 +33,8 @@ To run the tests through Cypress test runner use
 npm run test
 ```
 ## Framework Structure
+![cypreeFrameworkStructure](https://user-images.githubusercontent.com/109050601/178176044-17a2d3c7-2207-48e4-bf78-3334e94cd8e1.PNG)
+
 
 https://github.com/QAtesting8540/buggycarcypressbddautomation/blob/main/cypreeFrameworkStructure.PNG
 
